@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link href="http://fonts.googleapis.com/css2?family=robot:wght@300;500;900&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css" integrity="sha512-Rcr1oG0XvqZI1yv1HIg9LgZVDEhf2AHjv+9AuD1JXWGLzlkoKDVvE925qySLcEywpMAYA/rkg296MkvqBF07Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Selectores</h1>
+    <div class="content">
+        <p id="title">Los selectores declaran qué etiquetas se le aplican 
+            a los estilos que coincidan con la etiqueta o atributo señalados en la regla.</p>
+            <p>
+                Los selectores pueden aplicarse a:
+            </p>
+            <ul>
+                <li><a href="#1">los elementos de un tipo, como los parrafos p.</a></li>
+                <li><a href="#2">Elementos seguidos de un atributo, en particular:</a></li>
+                <li><a href="#3">id: identidicador, un identificador unico para la etiqueta.</a></li>
+                <li><a href="#4">class: clase, un identificador para anotar multiples elementos.</a></li>
+            </ul>
+            <br>
+            <input type="text" placeholder="Ingrese su tecto aqui">
+            <br>
+            <br>
+            <button>Buscar en Wikipedia</button>
+            <br>
+            <p>
+            Las clases y los identificadores son sensibles a las mayúsculas, comienzan con letras, y pueden incluir
+            caracteres alfanuméricos y guiones bajos. Una clase se aplica a cualquier número de elementos. Un
+            identificador
+            se aplica a un solo elemento.
+            </p>
+            <p class="text-bold">
+                La tabla siguiente proporciona un resumen de la sintaxis de los diversos selectores, indicando su forma de
+                uso y la versión de CSS en la que fueron introducidos:
+            </p>
+            <h2>Bloque de Declaraciones</h2>
+            <p>
+            Un bloque de declaraciones consiste en una lista de declaraciones unidas. Cada declaración consiste en una
+            propiedad, dos puntos (:), y un valor. Si hay muchas declaraciones en un bloque, un punto y coma (;) es
+            insertado para separar cada declaración.
+            </p>
+            <p>
+                Las propiedades son insertadas en el estándar CSS. Cada propiedad tiene un conjunto de posibles valores. 
+                Algunas propiedades afectan a cualquier elemento, otras solo a un grupo particular de elementos. 
+                Los valores pueden ser palabras clave, como "center" o "inherit", o valores numéricos, como 200px (200 píxeles) 
+                o 80% (80 por ciento del ancho de la ventana). Los valores de colores son especificados por medio de una palabra 
+                clave (ej. "red"), de valores hexadecimales (ej. #FF0000, pudiéndose abreviar como #F00), 
+                valores RGB en una escala del 0 al 255 (ej. rgb(255, 0, 0)), valores RGBA igual que los valores RGB pero con 
+                soporte para el canal alfa de transparencias (ej. rgba(255, 0, 0, 0.8)), y valores HSL o HSLA 
+                (ej. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).
+            </p>
+            <h2>Herencia</h2>
+            <p>
+                La herencia es una característica clave en CSS; basada en la relación 
+                ancestro-descendiente para operar. La herencia es el mecanismo por el cual las propiedades 
+                no solo se aplican a un solo elemento, sino también a sus descendientes. 
+                La herencia se basa en el árbol del documento, el cual es la jerarquía de los elementos 
+                XHTML en una página basada en el anidamiento. Los elementos descendientes pueden heredar los 
+                valores de las propiedades CSS de un elemento ancestro. En general, los elementos descendientes 
+                heredan las propiedades relacionadas al texto, pero las propiedades relacionadas con la caja no. 
+                Las propiedades que pueden ser heredadas son el color, fuente, espaciado, el peso de la línea, 
+                propiedades de lista, alineación del texto, identado, visibilidad, espaciado de espacios and y 
+                espaciado entre palabras. Las propiedades que no pueden ser heredadas son el fondo, bordes, 
+                visualización, posicionamiento, tamaño, márgenes, tamaño mínimo y máximo, outline, desbordamiento, 
+                relleno, posición, alineación vertical y z-index.7​
+            </p>
+            <p>
+                La herencia previene que algunas propiedades sean declaradas una y otra vez en la hoja de estilos,
+            permitiendo a los diseñadores escribir menos código CSS. Mejora la carga rápida de los sitios por los
+            usuarios, y permite a los clientes ahorrar dinero en los costos de desarrollo y ancho de banda.
+            </p>
+            <h2>Posicionamiento</h2>
+            <p>CSS 2.1 define 3 esquemas de posicionamiento:</p>
+            <h3>Normal</h3>
+            <p class="text-italic">
+                Los elementos inline, o de línea, son dispuestos de la misma manera que las letras en las palabras de un
+                texto, una vez que ya no hay más espacio en una línea, entonces se empieza una nueva línea abajo. Los
+                elementos block, o de bloque, son dispuestos verticalmente, como los párrafos.
+            </p>
+            <h3>Flotante</h3>
+            <p class="text-italic">Un elemento float está fuera del flujo normal y puesto lo más posible a la derecha o izquierda en el espacio
+                disponible. Los demás elementos fluyen alrededor del elemento float.</p>
+                <h3>Absoluto</h3>
+                <p class="text-italic">Un elemento posicionado absolutamente no tiene un lugar, y no afecta al flujo normal de los elementos. Ocupa
+                    el espacio que se le ha asignado independientemente de los demás elementos.</p>
+    </div>
+</body>
+</html>
